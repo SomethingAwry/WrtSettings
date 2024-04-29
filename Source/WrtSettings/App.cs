@@ -1,13 +1,11 @@
 using System;
 using System.Linq;
-using System.Collections.Generic;
 using System.Security.AccessControl;
 using System.Security.Principal;
 using System.Threading;
 using System.Windows.Forms;
 using CommandLine;
 using System.Text.RegularExpressions;
-using System.IO;
 
 namespace WrtSettings {
 

@@ -25,7 +25,6 @@ using Microsoft.Win32;
 using System.IO;
 using System;
 using System.Security;
-using System.Globalization;
 using System.Drawing;
 
 namespace Medo.Windows.Forms {

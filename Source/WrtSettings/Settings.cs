@@ -1,5 +1,3 @@
-using System;
-
 namespace WrtSettings {
     internal static class Settings {
 
