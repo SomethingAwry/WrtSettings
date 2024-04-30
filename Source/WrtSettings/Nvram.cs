@@ -1,12 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Globalization;
-using System.IO;
-using System.IO.Compression;
-using System.Text;
-
 namespace WrtSettings {
+
+    using System;
+    using System.Collections.Generic;
+    using System.Diagnostics;
+    using System.Globalization;
+    using System.IO;
+    using System.IO.Compression;
+    using System.Text;
+
     internal class Nvram {
 
         public Nvram(string fileName, NvramFormat format) {

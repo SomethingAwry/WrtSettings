@@ -1,13 +1,13 @@
-using System;
-using System.Linq;
-using System.Security.AccessControl;
-using System.Security.Principal;
-using System.Threading;
-using System.Windows.Forms;
-using CommandLine;
-using System.Text.RegularExpressions;
-
 namespace WrtSettings {
+
+    using System;
+    using System.Linq;
+    using System.Security.AccessControl;
+    using System.Security.Principal;
+    using System.Threading;
+    using System.Windows.Forms;
+    using CommandLine;
+    using System.Text.RegularExpressions;
 
     internal static class App {
         [Verb("decrypt", HelpText = "Decrypt a config file.")]

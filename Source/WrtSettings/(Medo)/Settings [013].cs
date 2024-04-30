@@ -20,17 +20,17 @@
 //2013-04-13: Writing null deletes the item and general refactoring.
 
 
-using Microsoft.Win32;
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Diagnostics;
-using System.Globalization;
-using System.IO;
-using System.Reflection;
-using System.Security;
-
 namespace Medo.Configuration {
+
+    using Microsoft.Win32;
+    using System;
+    using System.Collections.Generic;
+    using System.Configuration;
+    using System.Diagnostics;
+    using System.Globalization;
+    using System.IO;
+    using System.Reflection;
+    using System.Security;
 
     /// <summary>
     /// Provides cached access to reading and writing settings.

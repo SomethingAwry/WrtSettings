@@ -7,19 +7,19 @@
 //2012-03-05: Initial version.
 
 
-using System;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Drawing;
-using System.Globalization;
-using System.IO;
-using System.Net;
-using System.Reflection;
-using System.Text;
-using System.Threading;
-using System.Windows.Forms;
-
 namespace Medo.Services {
+
+    using System;
+    using System.ComponentModel;
+    using System.Diagnostics;
+    using System.Drawing;
+    using System.Globalization;
+    using System.IO;
+    using System.Net;
+    using System.Reflection;
+    using System.Text;
+    using System.Threading;
+    using System.Windows.Forms;
 
     /// <summary>
     /// Handles upgrade procedures.

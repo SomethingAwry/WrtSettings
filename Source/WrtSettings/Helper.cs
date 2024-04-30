@@ -1,10 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.Windows.Forms;
-
 namespace WrtSettings {
+
+    using System;
+    using System.Collections.Generic;
+    using System.Drawing;
+    using System.Drawing.Imaging;
+    using System.Windows.Forms;
+
     internal static class Helper {
 
         #region Toolstrip DPI scaling

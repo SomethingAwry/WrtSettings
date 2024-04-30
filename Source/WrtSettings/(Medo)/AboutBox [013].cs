@@ -1,4 +1,4 @@
-﻿//Copyright (c) 2008 Josip Medved <jmedved@jmedved.com>
+//Copyright (c) 2008 Josip Medved <jmedved@jmedved.com>
 
 //2008-01-02: New version.
 //2008-01-05: Top line now contains product name.
@@ -15,15 +15,15 @@
 //2012-11-24: Suppressing bogus CA5122 warning (http://connect.microsoft.com/VisualStudio/feedback/details/729254/bogus-ca5122-warning-about-p-invoke-declarations-should-not-be-safe-critical).
 
 
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Reflection;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-using System.Windows.Forms.VisualStyles;
-
 namespace Medo.Windows.Forms {
+
+    using System;
+    using System.Collections.Generic;
+    using System.Drawing;
+    using System.Reflection;
+    using System.Runtime.InteropServices;
+    using System.Windows.Forms;
+    using System.Windows.Forms.VisualStyles;
 
     /// <summary>
     /// Simple about form.

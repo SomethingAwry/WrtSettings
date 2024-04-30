@@ -1,4 +1,5 @@
 namespace WrtSettings {
+
     internal static class Settings {
 
         /// <summary>

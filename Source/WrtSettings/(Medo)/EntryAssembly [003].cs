@@ -5,9 +5,9 @@
 //2008-06-06: Added Copyright.
 
 
-using System.Reflection;
-
 namespace Medo.Reflection {
+
+    using System.Reflection;
 
 	/// <summary>
 	/// Returns various info about assembly that started process.

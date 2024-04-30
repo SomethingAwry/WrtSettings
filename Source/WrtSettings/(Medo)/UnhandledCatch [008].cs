@@ -12,10 +12,10 @@
 //2010-11-22: Changed default exception mode to CatchException.
 
 
-using System;
-using System.Threading;
-
 namespace Medo.Application {
+
+    using System;
+    using System.Threading;
 
     /// <summary>
     /// Handling of unhandled errors.

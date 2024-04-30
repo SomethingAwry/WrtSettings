@@ -19,15 +19,15 @@
 //2010-10-31: Added option to skip registry writes (NoRegistryWrites).
 
 
-using System.Windows.Forms;
-using System.Collections.Generic;
-using Microsoft.Win32;
-using System.IO;
-using System;
-using System.Security;
-using System.Drawing;
-
 namespace Medo.Windows.Forms {
+
+    using System.Windows.Forms;
+    using System.Collections.Generic;
+    using Microsoft.Win32;
+    using System.IO;
+    using System;
+    using System.Security;
+    using System.Drawing;
 
     /// <summary>
     /// Enables storing and loading of windows control's state.
