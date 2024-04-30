@@ -290,12 +290,14 @@ namespace Medo.Windows.Forms {
                             newLeft = screen.WorkingArea.Left + (screen.WorkingArea.Width - newWidth) / 2;
                             newTop = screen.WorkingArea.Top + (screen.WorkingArea.Height - newHeight) / 2;
                         }
-                    } break;
+                    }
+                    break;
 
                 case System.Windows.Forms.FormStartPosition.CenterScreen: {
                         newLeft = screen.WorkingArea.Left + (screen.WorkingArea.Width - newWidth) / 2;
                         newTop = screen.WorkingArea.Top + (screen.WorkingArea.Height - newHeight) / 2;
-                    } break;
+                    }
+                    break;
 
             }
 

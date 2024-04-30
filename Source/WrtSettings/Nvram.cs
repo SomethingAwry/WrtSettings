@@ -29,8 +29,7 @@ namespace WrtSettings {
                     } else {
                         throw new FormatException("Unrecognized format.");
                     }
-                }
-                else {
+                } else {
                     this.Format = format;
                 }
                 this.FileName = fileName;

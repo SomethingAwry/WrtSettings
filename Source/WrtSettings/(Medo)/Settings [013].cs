@@ -194,7 +194,8 @@ namespace Medo.Configuration {
                 try {
                     if (_args.ContainsKey(key)) { //CommandLine
                         retValue = GetInt32(_args.GetValue(key), defaultValue);
-                    } if (AppConfig.ContainsKey(key)) { //AppConfig
+                    }
+                    if (AppConfig.ContainsKey(key)) { //AppConfig
                         retValue = GetInt32(AppConfig[key], defaultValue);
                     } else if (TryRegistryRead(key, Registry.LocalMachine, out retValue)) { //Registry (HKLM)
                     } else if (TryRegistryRead(key, Registry.CurrentUser, out retValue)) { //Registry (HKCU)
