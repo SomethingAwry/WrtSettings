@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WrtSettings", "WrtSettings\WrtSettings.csproj", "{7D43DB74-7DE3-4EE4-8591-D520DD1AB0BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WrtSettings", "WrtSettings\WrtSettings.csproj", "{7D43DB74-7DE3-4EE4-8591-D520DD1AB0BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +17,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13FD62C6-C243-4E7C-B267-33F433F6AFCB}
 	EndGlobalSection
 EndGlobal

@@ -12,6 +12,7 @@
 *.iss eol=lf
 *.manifest eol=lf
 *.md eol=lf
+*.props eol=lf
 *.resx eol=lf
 *.rtf text
 *.sh eol=lf
