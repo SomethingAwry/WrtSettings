@@ -1,0 +1,19 @@
+# specifying eol also specifies the file as text
+# git files
+.gitattributes eol=lf
+.gitignore eol=lf
+.git-blame-ignore-revs eol=lf
+
+.editorconfig eol=lf
+*.cmd eol=crlf
+*.cs eol=lf
+*.csproj eol=lf
+*.ico binary
+*.iss eol=lf
+*.manifest eol=lf
+*.md eol=lf
+*.resx eol=lf
+*.rtf text
+*.sh eol=lf
+*.sln eol=lf
+*.snk binary
